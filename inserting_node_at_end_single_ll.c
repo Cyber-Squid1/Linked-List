@@ -7,7 +7,7 @@ struct node{
 };
 struct node* add_at_end(struct node *head,int value)
 {
-    struct node *temp=malloc(sizeof(struct node));;
+    struct node *temp=malloc(sizeof(struct node));
     temp->data=value;
     temp->link=NULL;
     
